@@ -1,3 +1,3 @@
-# coding template for VNSNY BIA
+# Learning Tidymodels
 
-Using this template to build a new repo will populate it with a .gitignore (file type exclusion declarations for Git) specifically written to use at VNSNY for BIA coding.
+rdewald's exercises working [TidyModels intro](https://www.tidymodels.org/start/)
