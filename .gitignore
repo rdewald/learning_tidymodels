@@ -1,0 +1,214 @@
+# History files
+**/*.Rhistory
+**/*.Rapp.history
+
+# Data files
+**/*.[cC][sS][vV]*
+**/*.[tT][xX][tT]
+**/*.[xX][lL][sS][xX]
+**/*.[xX][lL][sS]
+**/*.[rR][dD][aA]
+**/*.[rR][dD][sS]
+**/*.[rR][dD][aA][tT][aA]
+**/*.[fF][sS][tT]
+**/*.[hH][tT][mM][lL]
+**/*.[jJ][sS][oO][nN]
+**/*.[xX][mM][lL]
+**/*.[xX][lL][sS][bB]
+**/*.[jJ][pP][gG]
+**/*.[pP][nN][gG]
+**/*.[pP][dD][fF]
+**/*.[dD][aA][tT]
+**/*.[xX][lL][sS][mM]
+**/*.[jJ][pP][eE][gG]
+**/*.[tT][iI][fF][fF]
+**/*.[bB][mM][pP]
+**/*.[sS][vV][gG]
+**/*.[eE][pP][sS]
+**/*.[dD][oO][cC]*
+**/*.[qQ][sS]
+**/*.[Ff][Ee][Aa][Tt][Hh][Ee][Rr]
+**/*.[Pp][Aa][Rr][Qq][Uu][Ee][Tt]
+
+# SAS data files
+**/*.sas7bdat
+# Example code in package build process
+**/*.[eE][xX].[rR]
+
+# Output files from R CMD build
+**/*.[tT][aA][rR].[gG][zZ]
+**/*.[zZ][iI][pP]
+**/*.[gG][zZ]
+
+# Output files from R CMD check
+**/*.[rR][cC][hH][eE][cC][kK]/
+
+# RStudio files
+**/*.Rproj.user/
+**/*.Ruserdata
+
+# produced vignettes
+**/*.vignettes/*.[hH][tT][mM][lL]
+**/*.vignettes/*.[pP][dD][fF]
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+**/*.httr-oauth
+
+# knitr and R markdown default cache directories
+**/*_cache/
+**/cache/
+
+# Temporary files created by R markdown
+**/*.utf8.md
+**/*.knit.md
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+**/rsconnect/
+
+# R env var
+**/*.Renv
+**/*.Renviron
+**/*.Rprofile
+
+### Python
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# C extensions
+**/*.so
+
+# Distribution / packaging
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/*.egg
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+**/.manifest
+**/.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+**/.tox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/.hypothesis/
+**/.pytest_cache/
+
+# Translations
+**/*.mo
+**/*.pot
+
+# Django stuff:
+**/*.log
+**/local_settings.py
+**/db.sqlite3
+
+# Flask stuff:
+**/instance/
+**/.webassets-cache
+
+# Scrapy stuff:
+**/.scrapy
+
+# Sphinx documentation
+**/docs/_build/
+
+# PyBuilder
+**/target/
+
+# Jupyter Notebook
+**/.ipynb_checkpoints
+
+# pyenv
+**/.python-version
+
+# celery beat schedule file
+**/celerybeat-schedule
+
+# SageMath parsed files
+**/*.sage.py
+
+# Environments
+**/.env
+**/.venv
+**/env/
+**/venv/
+**/ENV/
+**/env.bak/
+**/venv.bak/
+
+# Spyder project settings
+**/.spyderproject
+**/.spyproject
+
+# Rope project settings
+**/.ropeproject
+
+# mkdocs documentation
+**/site
+
+# mypy
+**/.mypy_cache/
+
+# GIS data
+# ArcGIS
+**/*.gdb
+**/*.lock
+
+# Shapefiles
+**/*.shp
+**/*.prj
+**/*.shx
+**/*.vpr
+**/*.shp.xml
+**/*.sbx
+**/*.dbf
+**/*.cpg
+**/*.sbn
+**/*.sbx
+
+# TEAM-specific files to NOT ignore
+# These are safe files, with NO PHI, that are commonly used across the VNSNY-BIA team
+###################################################################
+!dslogo.[pP][nN][gG]
+!logo.[pP][nN][gG]
+###################################################################
+
+##################################################################################
+# ATTENTION: everything above this line should be in every VNSNY-BIA repository  #
+##################################################################################
+
+# REPOSITORY-specific files to NOT ignore
+# These are safe files, with NO PHI, that are specific to the repo/project
+###################################################################
+!onlykeepthisfile.csv
+!renv.lock
+###################################################################
+.Rproj.user
